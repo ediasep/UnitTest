@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate‐mapping PUBLIC
+        "‐//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate‐mapping>
+    <class name="com.mitrais.asep.book" table="Book">
+    <property name="id" column="id" type="int" />
+    <property name="isbn" column="isbn" type="string" />
+    <property name="title" column="title" type="string" />
+    <property name="author" column="author" type="string" />
+    <property name="status" column="status" type="string" />
+    </class>
+</hibernate‐mapping>
